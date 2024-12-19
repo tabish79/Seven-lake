@@ -1,0 +1,85 @@
+
+
+.block-two-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff; 
+    padding: 40px;
+    margin-left: 3em;
+}
+.accountbox{
+align-content: space-evenly;
+display: inline-block;
+padding: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+
+}
+
+.text-container {
+    background-color: transparent; 
+    width: 100%;
+
+}
+
+.text-container h1 {
+    font-weight: 700;
+    font-size: 47.63px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-container p {
+    font-size: 15.25px;
+    font-weight: 400;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-container button {
+    padding: 10px 20px;
+    background-color: #000; 
+    border: none;
+    cursor: pointer;
+}
+
+.text-container a {
+    color: #007bff;
+}
+image-container {
+  margin-left: 3em;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media screen and (max-width: 1150px) {
+    .block-two-container {
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: center;
+        grid-row: 1;
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+    .text-container {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: inherit;
+        grid-row: 2; 
+    }
+}

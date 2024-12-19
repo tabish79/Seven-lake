@@ -1,0 +1,87 @@
+
+
+.block-three-container {
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff; 
+    padding: 20px; 
+}
+
+.text-container {
+
+    background-color: transparent;
+    margin-right: 8em;
+    width: 60%; 
+}
+
+.text-container h2 {
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 47.63px;
+}
+
+.text-container p {
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15.25px;
+    font-weight: 400;
+}
+
+.text-container button {
+    padding: 10px 20px;
+    background-color: #000; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+.text-container p:last-child {
+    color: #007bff; 
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.textcontainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+@media screen and (max-width: 1150px) {
+    .img{
+        width: 100%;
+    }
+    .block-three-container {
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding: 10px; 
+    }
+     .textcontainer{
+        display: block;
+     }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        grid-row: 1; 
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+    .text-container {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+        padding: inherit;
+        grid-row: 2; 
+    }
+}
